@@ -16,8 +16,8 @@
 
     <script src="../build/index.min.js"></script>
     <script>
-      var simpleCrop = new SimpleCrop({
-        src: "../img/test2.jpg",
+      var mobileCrop = new MobileCrop({
+        src: '../img/test2.jpg',
         size: {
           width: 800,
           height: 600,
@@ -28,44 +28,44 @@
           left: 0,
         },
         cropCallback: function($resultCanvas) {
-          console.log("cropCallback");
-          $resultCanvas.style.marginRight = "10px";
-          $resultCanvas.style.width = "50%";
-          document.body.appendChild($resultCanvas);
+          console.log('cropCallback')
+          $resultCanvas.style.marginRight = '10px'
+          $resultCanvas.style.width = '50%'
+          document.body.appendChild($resultCanvas)
         },
         uploadCallback: function(src) {
-          console.log("uploadCallback " + src);
+          console.log('uploadCallback ' + src)
         },
         closeCallback: function() {
-          console.log("closeCallback");
+          console.log('closeCallback')
         },
-      });
+      })
 
       //上传图片
-      var $upload = document.querySelector("#upload");
-      $upload.addEventListener("change", function(evt) {
-        var files = evt.target.files;
+      var $upload = document.querySelector('#upload')
+      $upload.addEventListener('change', function(evt) {
+        var files = evt.target.files
         if (files.length > 0) {
-          simpleCrop.show(files[0]);
+          mobileCrop.show(files[0])
         }
-        $upload.value = ""; //清空 input value
-      });
+        $upload.value = '' //清空 input value
+      })
 
       //组件更新
-      var $update = document.querySelector("#update");
-      $update.addEventListener("click", function() {
-        simpleCrop.updateBox({
+      var $update = document.querySelector('#update')
+      $update.addEventListener('click', function() {
+        mobileCrop.updateBox({
           cropSizePercent: 0.7,
           size: {
             width: 600,
             height: 600,
           },
-        });
-        simpleCrop.initBoxBorder({
-          borderColor: "#0BFF00",
-        });
-        simpleCrop.show();
-      });
+        })
+        mobileCrop.initBoxBorder({
+          borderColor: '#0BFF00',
+        })
+        mobileCrop.show()
+      })
     </script>
   </body>
 </html>

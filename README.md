@@ -1,5 +1,5 @@
 
-# SimpleCrop
+# MobileCrop
 
 `全网唯一`支持裁剪图片任意角度旋转、交互体验`媲美原生客户端`的`全平台`图片裁剪组件。
 
@@ -19,6 +19,6 @@
 ## 安装
 
 ```bash
-npm install simple-crop
+npm install mobile-crop
 ```
 

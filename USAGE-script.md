@@ -18,7 +18,7 @@
 - 移动端初始化参数示例：
 
 ```javascript
-var simpleCrop = new SimpleCrop({
+var mobileCrop = new MobileCrop({
   src: "../img/test2.jpg", //裁剪图片地址
   size: {
     //裁剪尺寸
@@ -47,7 +47,7 @@ var simpleCrop = new SimpleCrop({
 - PC 初始化参数示例：
 
 ```javascript
-var simpleCrop = new SimpleCrop({
+var mobileCrop = new MobileCrop({
   title: "上传图片过大，请裁剪", //标题
   src: "../img/test2.jpg", //裁剪图片地址
   size: {
@@ -91,7 +91,7 @@ var $upload = document.querySelector("#upload");
 $upload.addEventListener("change", function(evt) {
   var files = evt.target.files;
   if (files.length > 0) {
-    simpleCrop.show(files[0]); //显示
+    mobileCrop.show(files[0]); //显示
   }
   $upload.value = ""; //清空 input value属性
 });
@@ -106,7 +106,7 @@ $upload.addEventListener("change", function(evt) {
 ```javascript
 var $update = document.querySelector("#update");
 $update.addEventListener("click", function() {
-  simpleCrop.updateBox({
+  mobileCrop.updateBox({
     //更新裁剪框尺寸和显示比例
     cropSizePercent: 0.7,
     size: {
@@ -114,10 +114,10 @@ $update.addEventListener("click", function() {
       height: 600,
     },
   });
-  simpleCrop.initBoxBorder({
+  mobileCrop.initBoxBorder({
     //更新裁剪框边框样式
     borderColor: "#0BFF00",
   });
-  simpleCrop.show(); //显示
+  mobileCrop.show(); //显示
 });
 ```

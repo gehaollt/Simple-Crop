@@ -1,5 +1,5 @@
 
-# SimpleCrop
+# MobileCrop
 
 The only `full-platform` picture cropping component that `supports cropping pictures at any angle` and interacts with the interaction experience comparable to that of native clients.
 
@@ -19,6 +19,6 @@ Compared with the currently popular Web picture cropping components, its advanta
 ## Installation
 
 ```bash
-npm install simple-crop
+npm install mobile-crop
 ```
 

@@ -13,13 +13,13 @@ import "../../build/template-2.css";
 ## 2、引入组件代码
 
 ```jsx
-import { SimpleCrop } from "../../index.jsx";
+import { MobileCrop } from "../../index.jsx";
 ```
 
 ## 3、初始化
 
 ```jsx
-<SimpleCrop {...this.state.cropParams} />
+<MobileCrop {...this.state.cropParams} />
 ```
 
 - 移动端初始化参数示例：

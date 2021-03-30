@@ -11,12 +11,12 @@ import "../../build/template-2.css";
 ## 2、引入组件代码
 
 ```vue
-import SimpleCrop from '../../index.vue';
+import MobileCrop from '../../index.vue';
 ```
 
 ```javascript
 components: {
-  'simple-crop': SimpleCrop
+  'simple-crop': MobileCrop
 },
 ```
 

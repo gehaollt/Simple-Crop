@@ -1,7 +1,7 @@
 import React from "react";
 import Core from "./index.js";
 
-export class SimpleCrop extends React.Component {
+export class MobileCrop extends React.Component {
   _instance; //组件实例
 
   constructor(props) {

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { SimpleCrop } from "../../index.jsx";
+import { MobileCrop } from "../../index.jsx";
 import "../../build/template-2.css";
 
 class Test2 extends React.Component {
@@ -82,7 +82,7 @@ class Test2 extends React.Component {
           value={this.state.inputValue}
         ></input>
         <button onClick={this.updateComponent.bind(this)}>组件更新</button>
-        <SimpleCrop {...this.state.cropParams} />
+        <MobileCrop {...this.state.cropParams} />
       </div>
     );
   }

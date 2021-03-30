@@ -6,12 +6,12 @@ module.exports = {
     filename: '[name].js',
     path: __dirname + '/build',
     library: {
-      root: 'SimpleCrop',
-      commonjs: 'simplecrop',
-      amd: 'simplecrop'
+      root: 'MobileCrop',
+      commonjs: 'mobilecrop',
+      amd: 'mobilecrop',
     },
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
   },
   devtool: '#source-map',
-  watch: true
-};
+  watch: true,
+}
