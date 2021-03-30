@@ -1,7 +1,4 @@
 
-# MobileCrop
-
-The only `full-platform` picture cropping component that `supports cropping pictures at any angle` and interacts with the interaction experience comparable to that of native clients.
 
 [中文](README.md)
 
