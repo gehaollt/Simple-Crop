@@ -1,7 +1,6 @@
 # React 用法
 
-- [Mobile 示例](https://newbieyoung.github.io/Simple-Crop/examples/react/test-2.html)
-- [PC 示例](https://newbieyoung.github.io/Simple-Crop/examples/react/test-1.html)
+
 
 ## 1、引入样式
 

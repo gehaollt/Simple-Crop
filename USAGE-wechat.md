@@ -1,8 +1,7 @@
+
 # 微信小程序用法
 
-![小程序码](https://newbieyoung.github.io/images/simple-crop-16.jpg)
 
-[示例代码](examples/wechat)
 
 ## 1、复制组件代码至项目目录
 
